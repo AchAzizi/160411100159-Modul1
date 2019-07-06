@@ -211,54 +211,54 @@ Tugas Praktikum
 Jika tinggi segitiga adalah 7
 printTriangle('$',7)
 
-       $
-      $$$
-     $$$$$
-    $$$$$$$
-   $$$$$$$$$
-  $$$$$$$$$$$
- $$$$$$$$$$$$$
-$$$$$$$$$$$$$$$
+	       $
+	      $$$
+	     $$$$$
+	    $$$$$$$
+	   $$$$$$$$$
+	  $$$$$$$$$$$
+	 $$$$$$$$$$$$$
+	$$$$$$$$$$$$$$$
 
 
 Jika Tinggi segitiga adalah 12
 printTriangle('*',12)
 
-           *
-          ***
-         *****
-        *******
-       *********
-      ***********
-     *************
-    ***************
-   *****************
-  *******************
- *********************
-***********************
+		   *
+		  ***
+		 *****
+		*******
+	       *********
+	      ***********
+	     *************
+	    ***************
+	   *****************
+	  *******************
+	 *********************
+	***********************
 
 
 2. Buatlah suatu modul dengan nama sparseMatrix (matriks yang memiliki banyak elemen ‘nol’) yang berisi beberapa fungsi sebagai berikut :
 	a) Fungsi untuk input data dari user. Input data ini berupa ukuran matriks, dan elemen-elemen pada sparse matrix tersebut ,
      seperti contoh berikut:
-    matrik-1		          matrik-2
-    jumlah baris = 3	    jumlah baris = 4
-    jumlah kolom = 4	    jumlah kolom = 1
-    jumlah data = 2		    jumlah data = 2
-    baris ke ?0		        baris ke ?0
-    kolom ke ?0		        kolom ke ?0
-    matrik [0,0]=2		    matrik [0,0]=3
-    baris ke ?2		        baris ke ?3
-    kolom ke ?3		        kolom ke ?0
-    matrik [2,3]=4		    matrik [3,0]=2
+	    matrik-1		          matrik-2
+	    jumlah baris = 3	    	jumlah baris = 4
+	    jumlah kolom = 4	    	jumlah kolom = 1
+	    jumlah data = 2		jumlah data = 2
+	    baris ke ?0		        baris ke ?0
+	    kolom ke ?0		        kolom ke ?0
+	    matrik [0,0]=2		matrik [0,0]=3
+	    baris ke ?2		        baris ke ?3
+	    kolom ke ?3		        kolom ke ?0
+	    matrik [2,3]=4		matrik [3,0]=2
 
 
 b) Fungsi untuk menampilkan sparse matrix. Contoh tampilan sparse matrix dapat dilihat sebagai berikut:
-	matrik 1=	      matrik 2=
-	| 2 0 0 0 |	    | 3 |
-	| 0 0 0 0 |	    | 0 |
-	| 0 0 0 4 |	    | 0 |
-		            	| 2 |
+		matrik 1=	      matrik 2=
+		| 2 0 0 0 |	    | 3 |
+		| 0 0 0 0 |	    | 0 |
+		| 0 0 0 4 |	    | 0 |
+					| 2 |
 
 
 c) Fungsi untuk mengalikan dua buah sparse matrix.
