@@ -163,43 +163,42 @@ Terdapat dua hal penting yang harus diperhatikan, yaitu
 2. Return Value : merupakan nilai yang dihasilkan oleh function, dan dikirim kembali ke pemanggil function
 
 contoh:
-    # Function tanpa parameter
-    
-    def addNumbers():
-        a=int(input('Bilangan pertama = '))
-        b=int(input('Bilangan kedua = '))
-        print('Hasil = ',a+b)
-    #Main program
-    addNumbers()#memanggil fungsi addNumbers agar dieksekusi
-    
-    # Function dengan parameter
-    
-    def addNumbers(a,b):
-        print('Hasil = ',a+b)
-    #Main program
-    num1=int(input('Bilangan pertama = '))
-    num2=int(input('Bilangan kedua = '))
-    addNumbers(num1,num2)#memanggil fungsi addNumbers agar dieksekusi
-    
-    # Function dengan parameter dan return value
-    
-    def addNumbers(a,b):
-        hasil=a+b
-        return hasil
-    def cekGenap(num):
-        if num%2==0:
-            return True
-        else:
-            return False
-    #Main program
-    num1=int(input('Bilangan pertama = '))
-    num2=int(input('Bilangan kedua = '))
-    result=addNumbers(num1,num2)#memanggil fungsi addNumbers agar dieksekusi
-    print('Hasil Penjumlahan= ', result)
-    if cekGenap(result):
-        print(result,' adalah Bilangan Genap')
-    else:
-        print(result,' adalah Bilangan Ganjil')
+	    # Function tanpa parameter
+	    def addNumbers():
+		a=int(input('Bilangan pertama = '))
+		b=int(input('Bilangan kedua = '))
+		print('Hasil = ',a+b)
+	    #Main program
+	    addNumbers()#memanggil fungsi addNumbers agar dieksekusi
+
+	    # Function dengan parameter
+
+	    def addNumbers(a,b):
+		print('Hasil = ',a+b)
+	    #Main program
+	    num1=int(input('Bilangan pertama = '))
+	    num2=int(input('Bilangan kedua = '))
+	    addNumbers(num1,num2)#memanggil fungsi addNumbers agar dieksekusi
+
+	    # Function dengan parameter dan return value
+
+	    def addNumbers(a,b):
+		hasil=a+b
+		return hasil
+	    def cekGenap(num):
+		if num%2==0:
+		    return True
+		else:
+		    return False
+	    #Main program
+	    num1=int(input('Bilangan pertama = '))
+	    num2=int(input('Bilangan kedua = '))
+	    result=addNumbers(num1,num2)#memanggil fungsi addNumbers agar dieksekusi
+	    print('Hasil Penjumlahan= ', result)
+	    if cekGenap(result):
+		print(result,' adalah Bilangan Genap')
+	    else:
+		print(result,' adalah Bilangan Ganjil')
 
 
 
