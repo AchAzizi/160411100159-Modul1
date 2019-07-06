@@ -1,7 +1,6 @@
 # Rangkuman-Modul1
-Struktur Data
+# Variabel dan type data
 
-Variabel dan type data
 Variabel adalah sebuah nama yang merepresentasikan suatu nilai dengan tipe data.
 Berbagai macam tipe data dasar yang dikenal dalam bahasa pemrograman Python, seperti:
 
