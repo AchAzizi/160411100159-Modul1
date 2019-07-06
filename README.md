@@ -57,6 +57,7 @@ Jenis-jenis Algoritma Pemrograman:
 1.	Algoritma sequential, adalah proses membandingkan setiap elemen larik satu per satu secara beruntun,
     mulai dari elemen pertama, sampai dengan elemen terakhir atau elemen yang dicari sudah ditemukan.
         # Algoritma Sequence - Konversi Kurs Mata Dollar ke Rupiah
+	
 		dollar=int(input('Jumlah Dollar = '))
 		rupiah=dollar*15000
 		print(dollar,'$ = Rp.',rupiah)
@@ -64,6 +65,7 @@ Jenis-jenis Algoritma Pemrograman:
 2.	Algoritma selection, merupakan algoritma yang didalamnya terdapat pilihan (True & False).
     Jika memenuhi kondisi True maka syntax pada percabangan True yang akan diekseskusi, begitu juga sebaliknya. 
         # Algoritma selection - Penentuan jenis bilangan
+	
 		num=int(input('Masukkan bilangan = '))
 		if num%2==0 :
 		    print(num, ' adalah bilangan genap')
@@ -73,6 +75,7 @@ Jenis-jenis Algoritma Pemrograman:
 3.	Algoritma looping, Pada Algoritma ini, syntax akan dieksekusi secara berulang-ulang selama kondisi bernilai True. 
     Jika kondisi bernilai False maka proses iterasi akan berhenti.
         # Algoritma looping - Menampilkan sejumlah n bilangan genap
+	
 		num=int(input('Jumlah bilangan genap = '))
 		count=1
 		i=0
@@ -119,10 +122,12 @@ maka variabel yang berbentuk dictionaries ini dapat dilakukan dengan dua cara, y
 2. Menuliskan satu-persatu anggotanya
 
 #Cara-1
+
     studData={'001':'Ranti','002':'Diana','003':'Budi','004':'Eri'}
     print(studData)
 
 #Cara-2
+
     studentData={}
     studentData['001']='Fatimah'
     studentData['002']='Sofiah'
@@ -134,6 +139,7 @@ implementasi Dictionaries ini adalah Sparse Matrix.
 Sparse Matrix merupaan matrix yang memiliki banyak nilai nol, sehingga jika menggunakan list, akan banyak memori yang dibutuhkan.
 Sedangkan dictionaries, hanya menyimpan yang dibutuhkan saja.
 Misalkan terdapat sebuah matriks dengan ukuran 4 x 4, yang berarti terdapat 16 elemen pada matriks tersebut.
+
     Mat = {(0,3): 1, (2, 1): 2, (3, 3): 3}
     print(Mat)
     Mat[0,2]=4 #penambahan data baru
@@ -158,6 +164,7 @@ Terdapat dua hal penting yang harus diperhatikan, yaitu
 
 contoh:
     # Function tanpa parameter
+    
     def addNumbers():
         a=int(input('Bilangan pertama = '))
         b=int(input('Bilangan kedua = '))
@@ -166,6 +173,7 @@ contoh:
     addNumbers()#memanggil fungsi addNumbers agar dieksekusi
     
     # Function dengan parameter
+    
     def addNumbers(a,b):
         print('Hasil = ',a+b)
     #Main program
@@ -174,6 +182,7 @@ contoh:
     addNumbers(num1,num2)#memanggil fungsi addNumbers agar dieksekusi
     
     # Function dengan parameter dan return value
+    
     def addNumbers(a,b):
         hasil=a+b
         return hasil
@@ -279,6 +288,7 @@ meminta input dari user,mengalikan dua buah sparse matrix, dan menampilkan spars
 Jawaban Tugas Praktikum
 
 #menampilkan segitiga-nomer1
+
     string = ""
     x = int(input("Masukkan angka :"))
     bar = x
@@ -300,6 +310,7 @@ Jawaban Tugas Praktikum
     print (string)
 
 #sparse matriks-nomer2
+
     def MatriksInput():
         baris=input("Jumlah Baris : ")
         kolom=input("Jumlah Kolom  : ")
