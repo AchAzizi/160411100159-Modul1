@@ -2,7 +2,7 @@
 Struktur Data
 
 Variabel dan type data
-Variabel adalah sebuah nama yang merepresentasikan suatu nilai dengan tipe data.  
+Variabel adalah sebuah nama yang merepresentasikan suatu nilai dengan tipe data.
 Berbagai macam tipe data dasar yang dikenal dalam bahasa pemrograman Python, seperti:
 
 Integer =  adalah data numeric
@@ -57,51 +57,55 @@ Jenis-jenis Algoritma Pemrograman:
 1.	Algoritma sequential, adalah proses membandingkan setiap elemen larik satu per satu secara beruntun,
     mulai dari elemen pertama, sampai dengan elemen terakhir atau elemen yang dicari sudah ditemukan.
         # Algoritma Sequence - Konversi Kurs Mata Dollar ke Rupiah
-        dollar=int(input('Jumlah Dollar = '))
-        rupiah=dollar*15000
-        print(dollar,'$ = Rp.',rupiah)
+		dollar=int(input('Jumlah Dollar = '))
+		rupiah=dollar*15000
+		print(dollar,'$ = Rp.',rupiah)
     
 2.	Algoritma selection, merupakan algoritma yang didalamnya terdapat pilihan (True & False).
     Jika memenuhi kondisi True maka syntax pada percabangan True yang akan diekseskusi, begitu juga sebaliknya. 
         # Algoritma selection - Penentuan jenis bilangan
-        num=int(input('Masukkan bilangan = '))
-        if num%2==0 :
-            print(num, ' adalah bilangan genap')
-        else:
-            print(num, ' adalah bilangan ganjil')
+		num=int(input('Masukkan bilangan = '))
+		if num%2==0 :
+		    print(num, ' adalah bilangan genap')
+		else:
+		    print(num, ' adalah bilangan ganjil')
     
-3.	Algoritma looping, Pada Algoritma ini, syntax akan dieksekusi secara berulang-ulang selama kondisi bernilai True.
+3.	Algoritma looping, Pada Algoritma ini, syntax akan dieksekusi secara berulang-ulang selama kondisi bernilai True. 
     Jika kondisi bernilai False maka proses iterasi akan berhenti.
         # Algoritma looping - Menampilkan sejumlah n bilangan genap
-        num=int(input('Jumlah bilangan genap = '))
-        count=1
-        i=0
-        while count<=num:
-            if i%2==0:
-                print(count,'. ',i)
-            count=count+1 
-        i=i+1
+		num=int(input('Jumlah bilangan genap = '))
+		count=1
+		i=0
+		while count<=num:
+		    if i%2==0:
+			print(count,'. ',i)
+		    count=count+1 
+		i=i+1
 
 
 String adalah type data ayng terdiri dari beberapa karakter
-    data="Where is Waldo ?"
-    print(data[12]) # Satu karakter
-    temp=data[9:14] # lima karakter
-    print(temp)
+
+	    data="Where is Waldo ?"
+	    print(data[12]) # Satu karakter
+	    temp=data[9:14] # lima karakter
+	    print(temp)
     
 List adalah struktur data yang terdiri dari beberapa elemen atau anggota list dengan berbagai tipe data
-    arrData=[1,2,'python',0.8,'numpy']
-    print (arrData)
-    print(arrData[1])
-    print(arrData[1:4])
+
+	    arrData=[1,2,'python',0.8,'numpy']
+	    print (arrData)
+	    print(arrData[1])
+	    print(arrData[1:4])
 
 List 2D adalah list yang berbentuk dua dimensi, yaitu bentuk data seperti halnya matriks dua dimensi, yang memiliki baris dan kolom
+
     #list 2D, dengan 2 baris, 3 kolom
-    arr2=[[1,2,3],[4,5,6]]
-    print(arr2)
-    print(arr2[0][2])
+	    arr2=[[1,2,3],[4,5,6]]
+	    print(arr2)
+	    print(arr2[0][2])
 
 Tuple, sama halnya dengan list, tuple ini terdiri dari beberapa elemen, dan elemen tersebut dapat terdiri dari berbagai tipe.
+
     tupData=(1,2,'python',0.8,'numpy')
     print(tupData)
     print(tupData[2])
